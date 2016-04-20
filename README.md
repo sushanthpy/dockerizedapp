@@ -1,3 +1,7 @@
+# dockerizedapp
+
+![alt text](https://travis-ci.org/sushanthpy/dockerizedapp.svg "Test case")
+
 
 This evaluation consists of a Django project called ICDB, the Internet Car
 Database, which is a database of cars exposed through a REST API.
@@ -6,14 +10,13 @@ The API is currently able to create and list cars using JSON representations.
 
 ## Setup
 
-To install the dependencies, run:
+# To install the dependencies, run:
     python setup.py install
 
-Then, create the sqlite database and load sample data:
+# sqlite database and load sample data:
     python manage.py syncdb
     python manage.py loaddata sample_cars
 
-Running tests:
+# Running tests:
     python manage.py test
 
-# dockerizedapp
