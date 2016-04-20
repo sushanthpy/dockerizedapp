@@ -1,5 +1,8 @@
 # dockerizedapp
 
+![alt text](https://travis-ci.org/sushanthpy/dockerizedapp.svg "Test case")
+
+
 This evaluation consists of a Django project called ICDB, the Internet Car
 Database, which is a database of cars exposed through a REST API.
 
