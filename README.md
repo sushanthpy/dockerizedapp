@@ -1,6 +1,6 @@
 # dockerizedapp
 
-![alt text](https://travis-ci.org/sushanthpy/dockerizedapp.svg "Test case")
+![alt text](https://travis-ci.org/sushanthpy/dockerizedapp.svg "Test cases for cars")
 
 
 This evaluation consists of a Django project called ICDB, the Internet Car
