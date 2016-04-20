@@ -6,10 +6,10 @@ The API is currently able to create and list cars using JSON representations.
 
 ## Setup
 
-To install the dependencies, run:
+# To install the dependencies, run:
     python setup.py install
 
-Then, create the sqlite database and load sample data:
+# sqlite database and load sample data:
     python manage.py syncdb
     python manage.py loaddata sample_cars
 
