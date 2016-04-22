@@ -1,7 +1,7 @@
 # dockerizedapp
 
 ![alt text](https://travis-ci.org/sushanthpy/dockerizedapp.svg "Test cases for cars")
-![alt text](https://landscape.io/github/sushanthpy/dockerizedapp/master/badges "Code Health")
+[![Code Health](https://landscape.io/github/sushanthpy/dockerizedapp/master/landscape.svg?style=flat)](https://landscape.io/github/sushanthpy/dockerizedapp/master)
 
 
 
