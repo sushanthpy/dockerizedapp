@@ -1,6 +1,8 @@
 # dockerizedapp
 
 ![alt text](https://travis-ci.org/sushanthpy/dockerizedapp.svg "Test cases for cars")
+![alt text](https://landscape.io/github/sushanthpy/dockerizedapp/master/badges "Code Health")
+
 
 
 This evaluation consists of a Django project called ICDB, the Internet Car
