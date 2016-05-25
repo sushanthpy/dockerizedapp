@@ -1,3 +1,5 @@
+"""Wsgi file for mdb settings."""
+
 import os
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mdb.settings")

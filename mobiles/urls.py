@@ -1,7 +1,7 @@
 """
 URLs for the cars app.
 """
-from django.conf.urls import patterns, include, url
+from django.conf.urls import patterns, url
 
 from . import views
 

@@ -7,6 +7,6 @@ from mobiles.models import Mobile
 
 class MobileForm(forms.ModelForm):
     """Form for the Car model."""
-    class Meta:
+    class Meta(object):
         model = Mobile
         fields = '__all__'
