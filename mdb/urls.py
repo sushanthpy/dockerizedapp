@@ -1,8 +1,6 @@
 """
-URLs for the icdb project.
+URLs for the mdb project.
 """
 from django.conf.urls import patterns, include, url
 
-urlpatterns = patterns('',
-    url(r'^mobiles/', include('mobiles.urls')),
-)
+patterns('', url(r'^mobiles/', include('mobiles.urls')))
