@@ -1,24 +1,22 @@
-# dockerizedapp
 
-![alt text](https://travis-ci.org/sushanthpy/dockerizedapp.svg "Test cases for cars")
-[![Code Health](https://landscape.io/github/sushanthpy/dockerizedapp/master/landscape.svg?style=flat)](https://landscape.io/github/sushanthpy/dockerizedapp/master)
+Django project called MDB, the Mobile Database, 
+which is a database of mobiles exposed through a REST API.
 
+The API is currently able to create, delete and list mobiles using JSON representations.
 
-
-This evaluation consists of a Django project called ICDB, the Internet Car
-Database, which is a database of cars exposed through a REST API.
-
-The API is currently able to create and list cars using JSON representations.
+## Test results
+![alt tag](https://travis-ci.org/chanduch06/mdb.svg?branch=master)
 
 ## Setup
-
-# To install the dependencies, run:
+<br />
+To install the dependencies, run: <br />
     python setup.py install
+<br />
+Then, create the sqlite database and load sample data: <br />
+    python manage.py makemigrations <br />
+    python manage.py migrate  <br />
+    python manage.py loaddata sample_mobiles <br />
 
-# sqlite database and load sample data:
-    python manage.py syncdb
-    python manage.py loaddata sample_cars
-
-# Running tests:
+Running tests: <br />
     python manage.py test
 

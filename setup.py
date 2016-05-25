@@ -1,12 +1,13 @@
 from setuptools import setup
 
 setup(
-    name='icdb',
-    description='The Internet Car DataBase',
+    name='MDB',
+    description='Mobile DataBase',
     version='0.0.1',
-    packages=['icdb', 'cars'],
+    packages=['mdb', 'mobiles'],
     install_requires=[
-        'django==1.4.18',
+        'django==1.9.5',
+        'simplejson',
         'nose',
         'mock',
     ]
