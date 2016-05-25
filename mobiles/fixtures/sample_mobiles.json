@@ -1,0 +1,29 @@
+[
+  {
+    "pk": 1,
+    "model": "mobiles.mobile",
+    "fields": {
+      "make": "Samsung",
+      "model": "S7",
+      "year": 2016
+    }
+  },
+  {
+    "pk": 2,
+    "model": "mobiles.mobile",
+    "fields": {
+      "make": "LG",
+      "model": "Nexus 5",
+      "year": 2015
+    }
+  },
+  {
+    "pk": 3,
+    "model": "mobiles.mobile",
+    "fields": {
+      "make": "iphone",
+      "model": "iphone 6",
+      "year": 2015
+    }
+  }
+]

@@ -1,6 +1,7 @@
 build/
 dist/
-icdb.egg-info/
+MDB.egg-info/
+mdb.egg-info/
 .*.swp
 *.py[co]
 *.pyc

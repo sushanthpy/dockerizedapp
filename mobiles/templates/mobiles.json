@@ -1,0 +1,5 @@
+[
+  {% for mobile in mobiles %}
+    {% include 'mobile.json' with mobile=mobile %}{% if not forloop.last %},{% endif %}
+  {% endfor %}
+]

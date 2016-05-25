@@ -1,0 +1,6 @@
+{
+  "id": {{ mobile.id }},
+  "make": "{{ mobile.make }}",
+  "model": "{{ mobile.model }}",
+  "year": {{ mobile.year }}
+}
