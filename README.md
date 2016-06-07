@@ -1,4 +1,6 @@
 
+##STAGING
+
 Django project called MDB, the Mobile Database, 
 which is a database of mobiles specs exposed through a REST API.
 
