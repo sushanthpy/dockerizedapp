@@ -1,6 +1,9 @@
 """
 URLs for the mdb project.
 """
-from django.conf.urls import patterns, include, url
+from django.conf.urls import include, url
 
-patterns('', url(r'^mobiles/', include('mobiles.urls')))
+
+urlpatterns = [
+    url(r'mobiles/', include('mobiles.urls'))
+]

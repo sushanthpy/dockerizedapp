@@ -3,7 +3,6 @@ URLs for the cars app.
 """
 from django.conf.urls import patterns, url
 
-from . import views
+from mobiles import views
 
-urlpatterns = patterns('', url(r'^$', views.MobileView.as_view(), name='mobiles'),
-)
+urlpatterns = [url(r'^$', views.MobileView.as_view(), name='mobiles')]

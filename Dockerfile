@@ -12,6 +12,8 @@ ADD .docker/run.sh /usr/local/bin/run
 RUN (cd /opt/apps/sushanth && git remote rm origin)
 RUN (cd /opt/apps/sushanth && git remote add origin https://github.com/sushanthpy/dockerizedapp.git)
 RUN /opt/ve/sushanth/bin/pip install -r /opt/apps/sushanth/requirements.txt
-RUN (cd /opt/apps/sushanth && /opt/ve/sushanth/bin/python manage.py syncdb --noinput)
+RUN (cd /opt/apps/sushanth && /opt/ve/sushanth/bin/python manage.py makemigrations --noinput)
+RUN (cd /opt/apps/sushanth && /opt/ve/sushanth/bin/python manage.py migrate --noinput)
+RUN (cd /opt/apps/sushanth && /opt/ve/sushanth/bin/python manage.py test --noinput)
 EXPOSE 8000
 CMD ["/bin/sh", "-e", "/usr/local/bin/run"]
